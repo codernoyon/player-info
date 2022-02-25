@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Info</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="home">
+        <h2 class="text-center text-white mb-4 bg-primary py-3">Search your favourite player</h2>
+        <div class="container">
+            <div class="d-flex justify-content-center mb-5">
+                <div class="col-10 col-md-6 d-flex ">
+                    <div class="input-group mb-3">
+                        <input id="input-field" type="text" class="form-control py-2" placeholder="Search player name" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button onclick="loadData()" class="btn btn-secondary" type="button" id="button-addon2">Button</button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="col-10 col-md-6">
+                    <div id="write-something-container">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="players-container" class="row d-flex g-3 justify-content-center">
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

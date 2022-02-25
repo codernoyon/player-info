@@ -1,0 +1,19 @@
+.custom-btn{
+    border-radius: 0;
+}
+
+.item{
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    background: #fdfdfd;
+}
+
+
+.single-player{
+    background: #fafafa;
+    padding: 1rem;
+    border-radius: .3rem;
+}
+
